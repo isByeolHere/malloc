@@ -10,6 +10,7 @@
                 "-V",
                 "-f",
                 "short1-bal.rep",
+                // 여기서 테스트케이스 다른거 하고 싶으면 바꾸면 됨.
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/malloc-lab",
@@ -24,6 +25,7 @@
                 }
             ],
             "preLaunchTask": "Build mdriver"
+            //명령어 실행하기 전에 해야하는 작업 
         }
     ]
 }

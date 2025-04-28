@@ -15,6 +15,7 @@
 #include <assert.h>
 #include <float.h>
 #include <time.h>
+#include <stdint.h> 
 
 extern char *optarg; // Added declaration for optarg
 
@@ -34,6 +35,7 @@ extern char *optarg; // Added declaration for optarg
 
 /* Returns true if p is ALIGNMENT-byte aligned */
 #define IS_ALIGNED(p) ((((unsigned int)(p)) % ALIGNMENT) == 0)
+// #define IS_ALIGNED(p) ((((unsigned_t)(p)) % ALIGNMENT) == 0)
 
 /******************************
  * The key compound data types
